@@ -7,7 +7,7 @@
 </script>
 
 <ModeWatcher/>
-<main class="max-w-5xl mx-auto">
+<main class=" mx-auto">
 	<Nav class=""></Nav>
 	{@render children()}
 </main>

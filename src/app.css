@@ -1,10 +1,23 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-.navStyle{
-@apply border border-b border-gray-500 dark:border-gray-50 text-3xl
+.navStyle {
+    @apply border border-b border-gray-500 dark:border-gray-50 text-3xl
 }
 
-a{
-    @apply text-gray-300 transition-all  duration-150 ease-in-out hover:text-gray-700 hover:underline
+a {
+    @apply text-gray-300 transition-all duration-150 ease-in-out hover:text-gray-700 hover:underline
+}
+
+.key-1-x{
+    @apply w-20 h-20
+}
+
+.key-1_5-x{
+    @apply w-30 h-20
+}
+
+
+.key-2-x{
+    @apply w-40 h-20
 }
